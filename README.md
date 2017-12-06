@@ -1,14 +1,20 @@
-# Udacity ND Item Catalog project
+# Udacity ND Linux Server configuration
 
-    A Web app built using flask with to showcase how to build CRUD functions,API's and OAuth authentication. You can add a sport as category and add sport items of that particular sport
-
-## Running the application
-
-    1. Other than flask you need install OAuthClient
-        'pip3 install oauthclient'
-    2. run 'python3 app.py'
-
-### HTML endpoints
+    Host the python web app on lightsail with security mesaures in place.
+    
+# IP Address
+    1. 13.126.129.241
+    2. SSH port : 2200
+# Url
+    1.http://13.126.129.241/
+# Summary of software install and configuration changes
+    1. secured server with changing ssh port, configure ufw, created a user grader created ssh-key pair
+    2. Installed apache2 and mod_wsgi-py3 to host python app
+    3. Installed postgresql and user which has limited permission
+    4. .git folder is public inaccessible by haveing a .htaccess in app host folder.
+    5. Virtualenvwrapper is used for virtual environment
+   
+# HTML endpoints
 
 #### Sport
 
